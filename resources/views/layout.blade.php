@@ -5,7 +5,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
-        <style>
+       <style>
             html, body {
                 height: 100%;
             }
@@ -57,10 +57,14 @@
 
         </style>
 
+            @yield('header')
+
     </head>
     <body>
-  
+
     		@yield('content')
+
+            @yield('footer')
 
     </body>
 </html>
