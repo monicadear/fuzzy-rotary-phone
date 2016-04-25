@@ -15,17 +15,6 @@ class PagesController extends Controller
 	    return view('welcome');
     }
 
-
-    public function about()
-    {
-		return view('pages.about'); // resources/views/pages/about.blade.php
-    }
-
-
-	public function contact()
-    {
-		return view('pages.contact'); // resources/views/pages/contact.blade.php
-    }
-
+ 
 
 }

@@ -156,6 +156,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * adding the Facebook SammyK helper
+         */
+        SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider::class,
+
     ],
 
     /*
