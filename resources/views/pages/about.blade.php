@@ -1,12 +1,5 @@
 @extends('layout')
 
-@section ('header')
-
-	<style>
-		p {color: #F00;}
-	</style>
-@stop
-
 
 
 @section('content')
@@ -22,7 +15,7 @@
     <a href="contact">Contact</a>
 </div>
 
-<p><img src="/resources/assets/logo.png" align="left" hspace="5">Jelly powder apple pie topping danish tootsie roll. Apple pie brownie biscuit macaroon fruitcake chocolate cupcake. Gummi bears chocolate cake gummies bear claw bonbon. Macaroon cake sweet roll cookie brownie marshmallow liquorice marzipan. Jelly beans cotton candy sugar plum sugar plum carrot cake candy canes danish. Gummies muffin sweet. Carrot cake dessert topping. Gummi bears powder topping candy canes fruitcake marshmallow cookie icing. Chocolate wafer marshmallow caramels pastry gummi bears candy. Ice cream ice cream pie marzipan lollipop dessert gummi bears marshmallow chupa chups. Danish caramels sugar plum chupa chups cake jelly beans jujubes candy. Jujubes jelly beans cake marshmallow. Cake chupa chups cupcake muffin chocolate bar marshmallow sweet. Candy chocolate cake cheesecake tiramisu muffin.
+<p><img src="images/logo.png" align="left" hspace="5">Jelly powder apple pie topping danish tootsie roll. Apple pie brownie biscuit macaroon fruitcake chocolate cupcake. Gummi bears chocolate cake gummies bear claw bonbon. Macaroon cake sweet roll cookie brownie marshmallow liquorice marzipan. Jelly beans cotton candy sugar plum sugar plum carrot cake candy canes danish. Gummies muffin sweet. Carrot cake dessert topping. Gummi bears powder topping candy canes fruitcake marshmallow cookie icing. Chocolate wafer marshmallow caramels pastry gummi bears candy. Ice cream ice cream pie marzipan lollipop dessert gummi bears marshmallow chupa chups. Danish caramels sugar plum chupa chups cake jelly beans jujubes candy. Jujubes jelly beans cake marshmallow. Cake chupa chups cupcake muffin chocolate bar marshmallow sweet. Candy chocolate cake cheesecake tiramisu muffin.
 </p>
 <p>YES YES Chocolate bar gingerbread powder topping. Oat cake pie cake. Topping muffin carrot cake brownie. Candy canes soufflé croissant soufflé powder biscuit lollipop. Fruitcake sesame snaps croissant carrot cake pudding carrot cake. Gummies gingerbread wafer cookie. Wafer liquorice halvah chocolate cake apple pie. Croissant cake ice cream cookie chupa chups bear claw topping candy. Jujubes bonbon chupa chups ice cream. Macaroon tiramisu chupa chups soufflé. Ice cream gingerbread powder carrot cake jujubes. Biscuit soufflé biscuit cotton candy sweet roll bonbon.
 </p>
@@ -33,14 +26,5 @@
 
             </div>
         </div>
-
-@stop
-
-
-@section('footer')
-
-		<script>
-			alert('This is the About page! Yeah!')
-		</script>
 
 @stop
